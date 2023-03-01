@@ -1,6 +1,7 @@
 # Introduction
 
 This request retrieves the details of pets by status. 
+
 # Method
 
 GET
