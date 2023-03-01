@@ -18,7 +18,7 @@ pet
 
 |Parameter|Type|Required?|Data type|Description|
 |:--|:--|:--|:--|:--|
-|petID|Path|Y|int64|Unique ID of a pet|
+|petID|Path|Y|int64|The unique ID of a pet.|
 
 # Sample request
 
