@@ -1,30 +1,33 @@
-# Introduction
+
+# GET pet/findByStatus
+
+## Introduction
 
 This request retrieves the details of pets by status. 
 
-# Method
+## Method
 
 GET
 
-# Base URL
+## Base URL
 
 https://petstore3.swagger.io/api/v3
 
-# Resource
+## Resource
 
 pet/findByStatus
 
-# Parameters
+## Parameters
 
 |Parameter|Type|Required?|Data type|Description|
 |:--|:--|:--|:--|:--|
 |status|Query|Y|string|Status of pets. Supported values: `available`, `sold`, and `pending`.|
 
-# Sample request
+## Sample request
 
 > GET https://petstore3.swagger.io/api/v3/pet/findByStatus?status=available
 
-# Sample response
+## Sample response
 
 ```json
 [

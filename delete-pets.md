@@ -1,30 +1,32 @@
-# Introduction
+# DELETE pet/{petID}
+
+## Introduction
 
 This request deletes the record of a specific pet.
 
-# Method
+## Method
 
 DELETE
 
-# Base URL
+## Base URL
 
 https://petstore3.swagger.io/api/v3
 
-# Resource
+## Resource
 
 pet
 
-# Parameters
+## Parameters
 
 |Parameter|Type|Required?|Data type|Description|
 |:--|:--|:--|:--|:--|
 |petID|Path|Y|int64|The unique ID of a pet.|
 
-# Sample request
+## Sample request
 
 > DELETE https://petstore3.swagger.io/api/v3/pet/5678
 
-# Sample response
+## Sample response
 
 ```bash
 Pet deleted

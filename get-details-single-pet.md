@@ -1,30 +1,32 @@
-# Introduction
+# GET pet/{petID}
+
+## Introduction
 
 This request retrieves the details of a single pet.
 
-# Method
+## Method
 
 GET
 
-# Base URL
+## Base URL
 
 https://petstore3.swagger.io/api/v3
 
-# Resource
+## Resource
 
 pet
 
-# Parameters
+## Parameters
 
 |Parameter|Type|Required?|Data type|Description|
 |:--|:--|:--|:--|:--|
 |petID|Path|Y|int64|The unique ID of a pet.|
 
-# Sample request
+## Sample request
 
 > GET https://petstore3.swagger.io/api/v3/pet/5678
 
-# Sample response
+## Sample response
 
 ```json
 {
