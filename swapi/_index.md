@@ -1,6 +1,6 @@
 # Overview
 
- The Start Wars API (`swapi`) provides a means to send HTTP requests to a database of Star Wars data and retrieve the requested data in the JSON format.
+ The Star Wars API (`swapi`) provides a means to send HTTP requests to a database of Star Wars data and retrieve the requested data in the JSON format.
 
 Use `swapi` to retrieve the following information about the Star Wars universe:
 
@@ -17,4 +17,4 @@ Use `swapi` to retrieve the following information about the Star Wars universe:
 
 ## Rate limit
 
-`swapi` supports 10,000 API request per day per IP address.
+`swapi` supports 10,000 API requests per day per IP address.
