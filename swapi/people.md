@@ -1,4 +1,4 @@
-# GET /people/
+# GET /people
 
 ## Introduction
 
