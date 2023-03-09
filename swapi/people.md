@@ -25,8 +25,21 @@ https://swapi.py4e.com/api/people
 |Parameter|Data type|Description|
 |:--|:--|:--|
 |name|string|Name of the character.|
-|height|number|Height of the character|
-||||
+|height|sring|Height of the character&mdash;expressed in centimeters.|
+|mass|string|Weight of the character&mdash;expressed in kilograms.|
+|hair_color|string|Hair color of the character.|
+|skin_color|string|Skin color of the character.|
+|eye_colot|string|Eye color of the character.|
+|birth_year|string|Birth year of the character in the in-universe standard.|
+|gender|string|Gender of the character.|
+|homeworld|string|URL of the planet where the character resides.|
+|films|array|An array of URLs of the films that featured the character.|
+|species|array|An array of URLs of the species owned by the character.|
+|vehicles|array|An array of URLs of the vehicles piloted by the character.|
+|starships|array|An array of URLs of the starships piloted by the character.|
+|created|string|The date when the character was created&mdash;expressed in the ISO 8601 format.|
+|edited|string|The date when the character was edited&mdash;expressed in the ISO 8601 format.|
+|url|string|URL of the character.|
 
 ## Sample response
 
